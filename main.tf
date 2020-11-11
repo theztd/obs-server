@@ -7,12 +7,12 @@ terraform {
 }
 
 terraform {
-  backend "remote" {
-    organization = "theztd-org"
+	backend "remote" {
+		organization = "theztd-org"
 
-    workspaces {
-      name = "obs-server"
-    }
-  }
+		workspaces {
+			name = "obs-server"
+		}
+	}
 }
 
