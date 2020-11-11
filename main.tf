@@ -6,13 +6,13 @@ terraform {
 	}
 }
 
-# terraform {
-#   backend "remote" {
-#     organization = "theztd-org"
-# 
-#     workspaces {
-#       name = "obs-server"
-#     }
-#   }
-# }
+terraform {
+  backend "remote" {
+    organization = "theztd-org"
+
+    workspaces {
+      name = "obs-server"
+    }
+  }
+}
 
